@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { recipe } from '../tempDetails';
 
 class RecipeDetails extends Component {
 	// constructor(props) {
@@ -22,7 +23,7 @@ class RecipeDetails extends Component {
 	// }
 
 	state = {
-		recipe: {}
+		recipe: recipe
 	};
 
 	async componentDidMount() {
