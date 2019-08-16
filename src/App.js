@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { recipes } from './setup-files/tempList';
 import RecipeList from './components/RecipeList';
 import RecipeDetails from './components/RecipeDetails';
 
